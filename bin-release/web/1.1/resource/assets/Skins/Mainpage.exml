@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="mainpage" width="750" height="550" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="set_board_png" x="-2" y="1"/>
+</e:Skin>

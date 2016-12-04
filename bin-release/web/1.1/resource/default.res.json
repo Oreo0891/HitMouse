@@ -1,0 +1,339 @@
+{
+	"groups": [
+		{
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,bg_png,ham_pic,mouse1_png,mouse5_png,mouse_1_png,mouse_2_png,mouse_3_png,mouse_4_png,mouse_5_png,mouse2_png,mouse3_png,mouse4_png,icon_25_png,score5_png,score1_png,score2_png,score3_png,score4_png,time_png,help_png,img29_png,img28_png,img20_png,img21_png,img22_png,img23_png,img24_png,img25_png,img26_png,img27_png,set_board_png,bg_gameover_png,img12_png,img13_png,img14_png,img15_png",
+			"name": "preload"
+		},
+		{
+			"keys": "ham_pic",
+			"name": "hammer_pic"
+		},
+		{
+			"keys": "mouse1_png,mouse2_png,mouse3_png,mouse4_png,mouse5_png,mouse_5_png,mouse_4_png,mouse_3_png,mouse_2_png,mouse_1_png",
+			"name": "mouse_pic"
+		},
+		{
+			"keys": "icon_25_png,score4_png,score3_png,score2_png,score1_png,score5_png",
+			"name": "point_pic"
+		},
+		{
+			"keys": "time_png",
+			"name": "timmer_pic"
+		},
+		{
+			"keys": "img29_png,img28_png,img27_png,img26_png,img25_png,img24_png,img23_png,img22_png,img21_png,img20_png",
+			"name": "button_pic"
+		},
+		{
+			"keys": "",
+			"name": "number_pic"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/CheckBox/checkbox_select_disabled.png",
+			"type": "image",
+			"name": "checkbox_select_disabled_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_down.png",
+			"type": "image",
+			"name": "checkbox_select_down_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_select_up.png",
+			"type": "image",
+			"name": "checkbox_select_up_png"
+		},
+		{
+			"url": "assets/CheckBox/checkbox_unselect.png",
+			"type": "image",
+			"name": "checkbox_unselect_png"
+		},
+		{
+			"url": "assets/ItemRenderer/selected.png",
+			"type": "image",
+			"name": "selected_png"
+		},
+		{
+			"url": "assets/Panel/border.png",
+			"type": "image",
+			"name": "border_png"
+		},
+		{
+			"url": "assets/Panel/header.png",
+			"type": "image",
+			"name": "header_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_disabled.png",
+			"type": "image",
+			"name": "radiobutton_select_disabled_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_down.png",
+			"type": "image",
+			"name": "radiobutton_select_down_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_select_up.png",
+			"type": "image",
+			"name": "radiobutton_select_up_png"
+		},
+		{
+			"url": "assets/RadioButton/radiobutton_unselect.png",
+			"type": "image",
+			"name": "radiobutton_unselect_png"
+		},
+		{
+			"url": "assets/ScrollBar/roundthumb.png",
+			"type": "image",
+			"name": "roundthumb_png"
+		},
+		{
+			"url": "assets/Slider/thumb.png",
+			"type": "image",
+			"name": "thumb_png"
+		},
+		{
+			"url": "assets/Slider/track.png",
+			"type": "image",
+			"name": "track_png"
+		},
+		{
+			"url": "assets/Slider/tracklight.png",
+			"type": "image",
+			"name": "tracklight_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/handle.png",
+			"type": "image",
+			"name": "handle_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/off.png",
+			"type": "image",
+			"name": "off_png"
+		},
+		{
+			"url": "assets/ToggleSwitch/on.png",
+			"type": "image",
+			"name": "on_png"
+		},
+		{
+			"url": "assets/Button/button_down.png",
+			"type": "image",
+			"name": "button_down_png"
+		},
+		{
+			"url": "assets/Button/button_up.png",
+			"type": "image",
+			"name": "button_up_png"
+		},
+		{
+			"url": "assets/ProgressBar/thumb_pb.png",
+			"type": "image",
+			"name": "thumb_pb_png"
+		},
+		{
+			"url": "assets/ProgressBar/track_pb.png",
+			"type": "image",
+			"name": "track_pb_png"
+		},
+		{
+			"url": "assets/ScrollBar/track_sb.png",
+			"type": "image",
+			"name": "track_sb_png"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/MyUI/bg.png",
+			"type": "image",
+			"name": "bg_png"
+		},
+		{
+			"url": "assets/MyUI/hammer.png",
+			"type": "image",
+			"name": "ham_pic"
+		},
+		{
+			"url": "assets/MyUI/mouse1.png",
+			"type": "image",
+			"name": "mouse1_png"
+		},
+		{
+			"url": "assets/MyUI/mouse5.png",
+			"type": "image",
+			"name": "mouse5_png"
+		},
+		{
+			"url": "assets/MyUI/mouse_1.png",
+			"type": "image",
+			"name": "mouse_1_png"
+		},
+		{
+			"url": "assets/MyUI/mouse_2.png",
+			"type": "image",
+			"name": "mouse_2_png"
+		},
+		{
+			"url": "assets/MyUI/mouse_3.png",
+			"type": "image",
+			"name": "mouse_3_png"
+		},
+		{
+			"url": "assets/MyUI/mouse_4.png",
+			"type": "image",
+			"name": "mouse_4_png"
+		},
+		{
+			"url": "assets/MyUI/mouse_5.png",
+			"type": "image",
+			"name": "mouse_5_png"
+		},
+		{
+			"url": "assets/MyUI/mouse2.png",
+			"type": "image",
+			"name": "mouse2_png"
+		},
+		{
+			"url": "assets/MyUI/mouse3.png",
+			"type": "image",
+			"name": "mouse3_png"
+		},
+		{
+			"url": "assets/MyUI/mouse4.png",
+			"type": "image",
+			"name": "mouse4_png"
+		},
+		{
+			"url": "assets/MyUI/icon_25.png",
+			"type": "image",
+			"name": "icon_25_png"
+		},
+		{
+			"url": "assets/MyUI/score0.png",
+			"type": "image",
+			"name": "score5_png"
+		},
+		{
+			"url": "assets/MyUI/score1.png",
+			"type": "image",
+			"name": "score1_png"
+		},
+		{
+			"url": "assets/MyUI/score2.png",
+			"type": "image",
+			"name": "score2_png"
+		},
+		{
+			"url": "assets/MyUI/score3.png",
+			"type": "image",
+			"name": "score3_png"
+		},
+		{
+			"url": "assets/MyUI/score4.png",
+			"type": "image",
+			"name": "score4_png"
+		},
+		{
+			"url": "assets/MyUI/time.png",
+			"type": "image",
+			"name": "time_png"
+		},
+		{
+			"url": "assets/MyUI/help.png",
+			"type": "image",
+			"name": "help_png"
+		},
+		{
+			"url": "assets/MyUI/img29.png",
+			"type": "image",
+			"name": "img29_png"
+		},
+		{
+			"url": "assets/MyUI/img28.png",
+			"type": "image",
+			"name": "img28_png"
+		},
+		{
+			"url": "assets/MyUI/img20.png",
+			"type": "image",
+			"name": "img20_png"
+		},
+		{
+			"url": "assets/MyUI/img21.png",
+			"type": "image",
+			"name": "img21_png"
+		},
+		{
+			"url": "assets/MyUI/img22.png",
+			"type": "image",
+			"name": "img22_png"
+		},
+		{
+			"url": "assets/MyUI/img23.png",
+			"type": "image",
+			"name": "img23_png"
+		},
+		{
+			"url": "assets/MyUI/img24.png",
+			"type": "image",
+			"name": "img24_png"
+		},
+		{
+			"url": "assets/MyUI/img25.png",
+			"type": "image",
+			"name": "img25_png"
+		},
+		{
+			"url": "assets/MyUI/img26.png",
+			"type": "image",
+			"name": "img26_png"
+		},
+		{
+			"url": "assets/MyUI/img27.png",
+			"type": "image",
+			"name": "img27_png"
+		},
+		{
+			"url": "assets/MyUI/set_board.png",
+			"type": "image",
+			"name": "set_board_png"
+		},
+		{
+			"url": "assets/MyUI/bg_gameover.png",
+			"type": "image",
+			"name": "bg_gameover_png"
+		},
+		{
+			"url": "assets/MyUI/img12.png",
+			"type": "image",
+			"name": "img12_png"
+		},
+		{
+			"url": "assets/MyUI/img13.png",
+			"type": "image",
+			"name": "img13_png"
+		},
+		{
+			"url": "assets/MyUI/img14.png",
+			"type": "image",
+			"name": "img14_png"
+		},
+		{
+			"url": "assets/MyUI/img15.png",
+			"type": "image",
+			"name": "img15_png"
+		}
+	]
+}

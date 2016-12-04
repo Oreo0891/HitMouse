@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Endpage" width="750" height="550" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="bg_gameover_png" x="4.7" y="-0.51"/>
+</e:Skin>
