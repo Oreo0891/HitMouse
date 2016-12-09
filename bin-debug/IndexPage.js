@@ -38,7 +38,6 @@ var IndexPage = (function (_super) {
     };
     //退出按钮
     p.showbutton3 = function () {
-        // var button3:egret.Bitmap = new egret.Bitmap(RES.getRes("img26"));
         var button3 = Main.createBitmapByName("img26_png");
         button3.x = 493;
         button3.y = 410;

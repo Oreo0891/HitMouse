@@ -5,6 +5,8 @@ class Surroundings extends eui.Component{
 	private scoreNum:egret.TextField=new egret.TextField();
 	private changeScore:egret.Bitmap;
 
+	private mymusic:Sound = new Sound();
+
 	public constructor() {
 		super();
 		this.skinName = "resource/assets/Skins/Srd.exml";
@@ -22,6 +24,8 @@ class Surroundings extends eui.Component{
 
 		var displayTime:Time=new Time();
 		this.addChild(displayTime);
+
+		this.mymusic.bgm_S();
 
 	}
 

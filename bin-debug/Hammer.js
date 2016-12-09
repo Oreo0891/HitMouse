@@ -7,9 +7,11 @@ var Hammer = (function (_super) {
     var d = __define,c=Hammer,p=c.prototype;
     p.Hitit = function (e) {
         var _this = this;
+        var hitmusic = new Sound();
         var smallHammer = Main.createBitmapByName("ham_pic");
         this.stage.addEventListener(egret.TouchEvent.TOUCH_TAP, function (e) {
             _this.addChild(smallHammer);
+            hitmusic.hammer_S();
             smallHammer.touchEnabled = false;
             smallHammer.x = e.stageX + smallHammer.width * 0.6;
             smallHammer.y = e.stageY - smallHammer.height * 0.2;

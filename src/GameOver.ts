@@ -1,5 +1,4 @@
 class GameOver extends eui.Component{
-	// public gameScore:number;
 	public constructor() {
 		super();
 		this.skinName = "resource/assets/Skins/Endpage.exml";
@@ -9,7 +8,6 @@ class GameOver extends eui.Component{
 	}
 
 	private showYourScore():void{
-		// var srding:Surroundings = new Surroundings();
 		var myscore:egret.TextField=new egret.TextField();
 		
 		myscore.x = 250;
@@ -29,7 +27,6 @@ class GameOver extends eui.Component{
 	}
 
 	private  reStart():void{
-		// console.log("I'm here");
 		var counter:Counter = new Counter();
 		this.parent.addChild(counter);
 		this.parent.removeChild(this);

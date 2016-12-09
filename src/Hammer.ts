@@ -4,10 +4,11 @@ class Hammer extends egret.Sprite{
 		this.once( egret.Event.ADDED_TO_STAGE, this.Hitit, this );
 	}
 	private Hitit(e:egret.Event):void{
+		var hitmusic:Sound = new Sound();
 		var smallHammer:egret.Bitmap=Main.createBitmapByName("ham_pic");	
         this.stage.addEventListener(egret.TouchEvent.TOUCH_TAP,(e:egret.TouchEvent)=>{
 			this.addChild(smallHammer);
-
+			hitmusic.hammer_S();
 			smallHammer.touchEnabled =  false;
 
 			smallHammer.x = e.stageX + smallHammer.width * 0.6;

@@ -22,6 +22,8 @@ var Time = (function (_super) {
         this.timeShow.textColor = 0xFA8D3B;
         if (this.timeS <= 0) {
             var gameOver = new GameOver();
+            var gameMusic = new Sound();
+            gameMusic.over_S();
             this.timer.stop();
             this.parent.parent.addChild(gameOver);
             this.parent.parent.removeChild(this.parent);

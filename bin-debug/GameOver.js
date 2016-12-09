@@ -1,6 +1,5 @@
 var GameOver = (function (_super) {
     __extends(GameOver, _super);
-    // public gameScore:number;
     function GameOver() {
         _super.call(this);
         this.skinName = "resource/assets/Skins/Endpage.exml";
@@ -9,7 +8,6 @@ var GameOver = (function (_super) {
     }
     var d = __define,c=GameOver,p=c.prototype;
     p.showYourScore = function () {
-        // var srding:Surroundings = new Surroundings();
         var myscore = new egret.TextField();
         myscore.x = 250;
         myscore.y = 350;
@@ -26,7 +24,6 @@ var GameOver = (function (_super) {
         button1.addEventListener(egret.TouchEvent.TOUCH_TAP, this.reStart, this);
     };
     p.reStart = function () {
-        // console.log("I'm here");
         var counter = new Counter();
         this.parent.addChild(counter);
         this.parent.removeChild(this);

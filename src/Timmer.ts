@@ -24,6 +24,8 @@ class Time extends egret.Sprite{
 		this.timeShow.textColor=0xFA8D3B;
 		if(this.timeS<=0){
 			var gameOver:GameOver = new GameOver();
+			var gameMusic:Sound = new Sound();
+			gameMusic.over_S();
 			this.timer.stop();
 			this.parent.parent.addChild(gameOver);
 			this.parent.parent.removeChild(this.parent);

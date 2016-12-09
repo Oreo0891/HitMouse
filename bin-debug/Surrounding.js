@@ -4,6 +4,7 @@ var Surroundings = (function (_super) {
         _super.call(this);
         this.addScore = 0;
         this.scoreNum = new egret.TextField();
+        this.mymusic = new Sound();
         this.skinName = "resource/assets/Skins/Srd.exml";
         var showScore = new Scores();
         this.addChild(showScore);
@@ -14,6 +15,7 @@ var Surroundings = (function (_super) {
         this.addChild(ham);
         var displayTime = new Time();
         this.addChild(displayTime);
+        this.mymusic.bgm_S();
     }
     var d = __define,c=Surroundings,p=c.prototype;
     p.radIdx = function () {

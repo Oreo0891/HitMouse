@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,bg_png,ham_pic,mouse1_png,mouse5_png,mouse_1_png,mouse_2_png,mouse_3_png,mouse_4_png,mouse_5_png,mouse2_png,mouse3_png,mouse4_png,icon_25_png,score5_png,score1_png,score2_png,score3_png,score4_png,time_png,help_png,img29_png,img28_png,img20_png,img21_png,img22_png,img23_png,img24_png,img25_png,img26_png,img27_png,set_board_png,bg_gameover_png,img12_png,img13_png,img14_png,img15_png",
+			"keys": "checkbox_select_disabled_png,checkbox_select_down_png,checkbox_select_up_png,checkbox_unselect_png,selected_png,border_png,header_png,radiobutton_select_disabled_png,radiobutton_select_down_png,radiobutton_select_up_png,radiobutton_unselect_png,roundthumb_png,thumb_png,track_png,tracklight_png,handle_png,off_png,on_png,button_down_png,button_up_png,thumb_pb_png,track_pb_png,track_sb_png,egret_icon_png,description_json,bg_png,ham_pic,mouse1_png,mouse5_png,mouse_1_png,mouse_2_png,mouse_3_png,mouse_4_png,mouse_5_png,mouse2_png,mouse3_png,mouse4_png,icon_25_png,score5_png,score1_png,score2_png,score3_png,score4_png,time_png,help_png,img29_png,img28_png,img20_png,img21_png,img22_png,img23_png,img24_png,img25_png,img26_png,img27_png,set_board_png,bg_gameover_png,img12_png,img13_png,img14_png,img15_png,begin_music_mp3,game_music_mp3,game_pass_mp3,no_hit_mp3,over_music_mp3,second_music_mp3",
 			"name": "preload"
 		},
 		{
@@ -334,6 +334,36 @@
 			"url": "assets/MyUI/img15.png",
 			"type": "image",
 			"name": "img15_png"
+		},
+		{
+			"name": "begin_music_mp3",
+			"type": "sound",
+			"url": "assets/MySound/begin_music.mp3"
+		},
+		{
+			"name": "game_music_mp3",
+			"type": "sound",
+			"url": "assets/MySound/game_music.mp3"
+		},
+		{
+			"name": "game_pass_mp3",
+			"type": "sound",
+			"url": "assets/MySound/game_pass.mp3"
+		},
+		{
+			"name": "no_hit_mp3",
+			"type": "sound",
+			"url": "assets/MySound/no_hit.mp3"
+		},
+		{
+			"name": "over_music_mp3",
+			"type": "sound",
+			"url": "assets/MySound/over_music.mp3"
+		},
+		{
+			"name": "second_music_mp3",
+			"type": "sound",
+			"url": "assets/MySound/second_music.mp3"
 		}
 	]
 }

@@ -21,6 +21,7 @@ class IndexPage extends eui.Component{
 			var counter:Counter = new Counter();
 			this.parent.addChild(counter);
 			this.parent.removeChild(this);
+			
 		}
 
 		//游戏帮助按钮
@@ -42,7 +43,6 @@ class IndexPage extends eui.Component{
 
 		//退出按钮
 		private showbutton3():void{
-			// var button3:egret.Bitmap = new egret.Bitmap(RES.getRes("img26"));
 			var button3: egret.Bitmap = Main.createBitmapByName("img26_png");
 			button3.x = 493;
 			button3.y = 410;

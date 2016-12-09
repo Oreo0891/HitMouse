@@ -20,6 +20,7 @@ var game_file_list = [
 	"bin-debug/Main.js",
 	"bin-debug/Mouse.js",
 	"bin-debug/Scores.js",
+	"bin-debug/Sound.js",
 	"bin-debug/Surrounding.js",
 	"bin-debug/ThemeAdapter.js",
 	"bin-debug/Timmer.js",
